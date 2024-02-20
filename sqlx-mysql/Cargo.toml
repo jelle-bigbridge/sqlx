@@ -18,8 +18,6 @@ _rt-tokio = ["sqlx-core/_rt-tokio", "tokio"]
 
 [dependencies]
 sqlx-core = { workspace = true }
-
-# Support for tokio::io::AsyncWrite in mysql::infile
 tokio = { workspace = true, optional = true }
 
 # Futures crates
